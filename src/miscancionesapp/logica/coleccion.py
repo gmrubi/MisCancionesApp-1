@@ -1,8 +1,7 @@
-from src.modelo.album import Album, Medio
-from src.modelo.cancion import Cancion
-from src.modelo.interprete import Interprete
-from src.modelo.declarative_base import engine, Base, session
-
+from src.miscancionesapp.modelo.album import Album, Medio
+from src.miscancionesapp.modelo.cancion import Cancion
+from src.miscancionesapp.modelo.interprete import Interprete
+from src.miscancionesapp.modelo.declarative_base import engine, Base, session
 
 class Coleccion():
 
